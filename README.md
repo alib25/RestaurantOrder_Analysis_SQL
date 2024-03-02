@@ -19,3 +19,5 @@ Exlpore the orders table. To better understand the orders table, find the fate r
 
 Analyze customer behavior. Combine the items and orders tables, find the least and most ordered categories, and explore the details of the highest spend orders.
 
+**Tools:** 
+- POSTgreSQL for data analysis
