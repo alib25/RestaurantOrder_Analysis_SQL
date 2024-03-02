@@ -20,23 +20,23 @@ FROM order_details AS od LEFT JOIN menu_items AS mi
 GROUP By order_id
 ORDER BY total_spent DESC
 LIMIT 5;
-    
+-- The highest spend order bought mostly italian even though Italian items arent as popular on the menu
+
+
 -- 4. View the details of the highest spend order. What insights can you gather from the results?
 SELECT category, COUNT(item_id) AS num_items
 FROM order_details AS od LEFT JOIN menu_items AS mi
 	ON od.item_id = mi.menu_item_id
 WHERE order_id = 440
 GROUP BY category;
+--The highest spend order bought mostly Italian even though Italian items arent as popular on the menu
 
--- 5. View the details of the top 5 highest spent oders. What insights can you gather from the results?
+
+-- 5. View the details of the top 5 highest spent orders. What insights can you gather from the results?
 SELECT order_id, category, COUNT(item_id) AS num_items
 FROM order_details AS od LEFT JOIN menu_items AS mi
 	ON od.item_id = mi.menu_item_id
 WHERE order_id IN (440, 2075, 1957, 330, 2675)
 GROUP BY order_id, category;
-
-'440', '192.15'
-'2075', '191.05'
-'1957', '190.10'
-'330', '189.70'
-'2675', '185.10'
+--The top 5 highest spent orders are ordering Italian food than any other food. (individual results same as mentioned before) 
+--Need to keep the expensive Italian dishes on our menu becuase people seem to like it more than other dishes
