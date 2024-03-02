@@ -2,7 +2,7 @@
 ![188124298-8c5f2ace-321e-4224-a117-d49fe2f8a1b0](https://github.com/alib25/Influenza_Vaccinations_SQL/assets/149107691/04e18e07-8560-4232-af92-5442bf8a82cf)
 
 # Project Overview:
-The Taste of the World Café, is a fricitonal restaurant that has diverse menu offerings and serves generous portions. The Taste of the World Cafe debuted a new menu at the start of the year. The aim of the project is to dig into the customer data to see which menu items are doing well / not well and what the top customers seem to like best
+The Taste of the World Café, is a fricitonal restaurant that has diverse menu offerings and serves generous portions. The Taste of the World Cafe debuted a new menu at the start of the year (2023). The aim of the project is to dig into the customer data to see which menu items are doing well / not well and what the top customers seem to like best
 
 
 ## Objectives:
