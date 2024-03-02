@@ -1,4 +1,4 @@
--- 1. View the order_details table. What is the date range of the table?
+-- 1. View the order_details table
 SELECT *
 FROM order_details;
 
